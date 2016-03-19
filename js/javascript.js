@@ -1,5 +1,5 @@
 
-
+// New comment for attendants
 /*****
 ****** Email subscription / form handling
 */
@@ -8,11 +8,10 @@ function validateEmailAddress(address){
   var emailFilter = /^.+@.+\..{2,6}$/;
 
   // check email address
-  if (!(emailFilter.test(address))) { 
+  if (!(emailFilter.test(address))) {
     error = true;
   }
 
   // return valid or not valid
   return !error;
 }
-
