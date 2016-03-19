@@ -1,4 +1,5 @@
 
+// Another comment for attendants
 // New comment for attendants
 /*****
 ****** Email subscription / form handling
